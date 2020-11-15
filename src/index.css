@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Topbar {
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(14, 133, 212);
+  color: white;
+  font-size: 2vw;
+}
+.scores {
+  display: inline;
+  font-size: 1vw;
+  margin-left: 25vw;
+}
+
+.Card {
+  min-width: 12vw;
+  min-height: 20vh;
+  max-height: 25vh;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+  display: block;
+  margin: 15px;
+}
+.carImage {
+  max-width: 10vw;
+}
+.carName {
+  font-size: 1vw;
+}
+.cardArea {
+  display: grid;
+  grid-template-areas: "0 1 2 3 4 5"
+                        "6 7 8 9 10 11";
+}
