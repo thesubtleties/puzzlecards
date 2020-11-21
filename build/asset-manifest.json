@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/puzzlecards/static/css/main.24445e2a.chunk.css",
-    "main.js": "/puzzlecards/static/js/main.6841d5dd.chunk.js",
-    "main.js.map": "/puzzlecards/static/js/main.6841d5dd.chunk.js.map",
+    "main.js": "/puzzlecards/static/js/main.1428d0e5.chunk.js",
+    "main.js.map": "/puzzlecards/static/js/main.1428d0e5.chunk.js.map",
     "runtime-main.js": "/puzzlecards/static/js/runtime-main.815f2ccb.js",
     "runtime-main.js.map": "/puzzlecards/static/js/runtime-main.815f2ccb.js.map",
     "static/js/2.90621371.chunk.js": "/puzzlecards/static/js/2.90621371.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.815f2ccb.js",
     "static/js/2.90621371.chunk.js",
     "static/css/main.24445e2a.chunk.css",
-    "static/js/main.6841d5dd.chunk.js"
+    "static/js/main.1428d0e5.chunk.js"
   ]
 }
