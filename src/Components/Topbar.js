@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 function Topbar(props) {
+
   return (
     <div className="Topbar">
     <span>Memory Card Game</span>

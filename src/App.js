@@ -74,6 +74,12 @@ function App() {
   ]
   const [placementOrder, setPlacementOrder] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
 
+  useEffect(() => {
+    if (currentScore > highScore) {
+      setHighScore(highScore + 1);
+    }
+  }, [currentScore, highScore]);
+
   const getRandomInt = (max) => {
     return Math.floor(Math.random() * Math.floor(max));
   }
@@ -102,9 +108,6 @@ function App() {
     } else {
       pickOrder.push(carPicked);
       setCurrentScore(currentScore + 1);
-      if (currentScore >= highScore) {
-        setHighScore(highScore + 1);
-      }
     }
 
   }
